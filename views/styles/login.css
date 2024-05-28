@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+:root
+{
+    --colorY1: #DDAF5A;
+    --colorY2: #aa7f30;
+    --colorB1: #8F3F24;
+    --colorB2: #5f210c;
+    --colorBL1: #788AE1;
+    --colorBL2: #4b61ce;
+    --colorR1: #A52A2A;
+    --colorR2: #920b0b;
+    --colorG1: #0DA934;
+    --colorG2: #00751d;
+    --ButtonFont: "MedievalSharp", cursive;
+}
+main
+{
+    background: url(../imgs/Login-background.jpg);
+    width: 100%;
+    height: 99.9vh;
+    background-size: 100%;
+    background-position: top;
+}
+article
+{
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(10px);
+    border-top: 1px solid;
+    animation-name: ready-loginBlur;
+    animation-duration: 4s;
+}
+aside
+{
+    width: 30%;
+    height: 70vh;
+    border: 1px solid;
+    margin: 10vh auto;
+    background-color: #c5a56a;
+    border: 10px double #5f210c;
+    animation-name: ready-login;
+    animation-duration: 4s;
+}
+
+
+aside > img
+{
+    width: 100px;
+    height: 100px;
+    margin: 0 12vw;
+}
+aside > h1
+{
+    color: white;
+    font-size: 39px;
+    margin: 7vh 0 1vh 0;
+    text-align: center;
+    text-shadow: 2px 2px 3px black;
+}
+aside > h5
+{
+    font-size: 17px;
+    color: white;
+    text-align: center;
+    margin: 0;
+    text-shadow: 2px 2px 2px black;
+}
+aside > p
+{
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    margin: 4vh 0 2vh 0;
+    text-shadow: 2px 2px 2px black;
+}
+aside > input
+{
+    margin: 0 20%;
+    width: 60%;
+    height: 2em;
+}
+aside > button
+{
+    width: 9vw;
+    height: 6vh;
+    margin: 3vh 3vw;
+    font-size: 22px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    transition: all ease 0.5s;
+    cursor: pointer;
+}
+button:hover
+{
+    scale: 1.2;
+}
+.login
+{
+    background-color: #0DA934;
+    border: 8px double #00751d;
+}
+.register
+{
+    background-color: #A52A2A;
+    border: 8px double #920b0b;
+}
+h6
+{
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    text-shadow: 2px 2px 2px black;
+}
+@keyframes ready-login {
+    0% {
+        margin: 0 auto;
+        opacity: 0;
+    }
+    100% {
+        margin: 10vh auto;
+    }
+}
+@keyframes ready-loginBlur {
+    0% {
+        backdrop-filter: blur(2px);
+    }
+    100% {
+        backdrop-filter: blur(8px);
+    }
+}

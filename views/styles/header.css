@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+.medievalsharp-regular {
+    font-family: "MedievalSharp", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+:root
+{
+    --ButtonFont: "MedievalSharp", cursive;
+    --colorY1: #DDAF5A;
+    --colorY2: #aa7f30;
+    --colorB1: #8F3F24;
+    --colorB2: #5f210c;
+    --colorBL1: #788AE1;
+    --colorBL2: #4b61ce;
+    --colorR1: #A52A2A;
+    --colorR2: #920b0b;
+    --colorG1: #0DA934;
+    --colorG2: #00751d;
+}
+body
+{
+    margin: 0;
+    font-family: var(--ButtonFont);
+}
+header
+{
+    position: fixed;
+    z-index: 1;
+}
+.header-body
+{
+    position: fixed;
+    border: 1px solid;
+    width: 95%;
+    height: 12vh;
+    margin: 2.3vw;
+    display: flex;
+    background-color: var(--colorB1);
+}
+.profile-menu
+{
+    width: 17%;
+    display: flex;
+    transition: all ease-in 0.2s;
+}
+#profile-img
+{
+    margin-left: 5vw;
+    margin-top: 1vh;
+    width: 4.5vw;
+    border: 4px solid gray; 
+    border-radius: 100px;
+}
+.profile-menu > button
+{
+    border: none;
+    color: aliceblue;
+    background: none;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: all ease 0.2s;
+    cursor: pointer;
+}
+.profile-menu:hover
+{
+    width: 19%;
+    font-size: 27px;
+    scale: 1.1;
+    cursor: pointer;
+}
+.header-button
+{
+    width: 21%;
+    background-color: var(--colorY1);
+    display: flex;
+}
+.header-button > p
+{
+    font-size: 29px;
+    margin: 0;
+    font-family: var(--ButtonFont);
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    letter-spacing: 5px;
+    margin: 25px auto 10px auto;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+.header-button > p:hover
+{
+    font-size: 49px;
+    margin: 10px auto 0px auto;
+}
+
+/* PROFILE MENU */
+
+.profile-box
+{
+    border: 4px solid var(--colorR2);
+    margin-top: 20vh;
+    margin-left: 2.3vw;
+    width: 20vw;
+    height: 50vh;
+    color: white;
+    padding: 10px;
+    background-color: var(--colorR1);
+    border-radius: 5px;
+}
+
+.profile-button
+{
+    color: white;
+    font-size: 40px;
+    font-family: var(--ButtonFont);
+    letter-spacing: 3px;
+    margin: 15px 5px;
+    transition: all ease 0.5s;
+    text-shadow: 2px 0px 2px black;
+    cursor: pointer;
+}
+.profile-button:hover
+{
+    margin-left: 2vw;
+    scale: 1.1;
+}
+.progress-bar
+{
+    height: 15px;
+    padding: 2px;
+    background-color: aliceblue;
+    display: flex;
+    border-radius: 50px;
+
+}
+.progress-bar::before
+{
+    content: "XP: 96 | 203";
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    width: 47.2%;
+    background-color: var(--colorBL1);
+    border-radius: 5px;
+}

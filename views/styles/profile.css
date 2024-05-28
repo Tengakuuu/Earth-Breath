@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+:root
+{
+    --colorY1: #DDAF5A;
+    --colorY2: #aa7f30;
+    --colorB1: #8F3F24;
+    --colorB2: #5f210c;
+    --colorBL1: #788AE1;
+    --colorBL2: #4b61ce;
+    --colorR1: #A52A2A;
+    --colorR2: #920b0b;
+    --colorG1: #0DA934;
+    --colorG2: #00751d;
+    --ButtonFont: "MedievalSharp", cursive;
+}
+.Profile-box
+{
+    width: 100%;
+    height: 95vh;
+    border-top: 1px solid;
+    border-bottom: 50px double var(--colorB2);
+    background: url(../imgs/Wood_background-1.jpg);
+}
+.Profile-content
+{
+    width: 75%;
+    height: 63%;
+    margin: 10vw auto;
+    background-color:#f8d084;
+    border: 10px double var(--colorG2);
+    display: flex;
+}
+.left
+{
+    width: 50%;
+    height: 100%;
+    border: 1px solid var(--colorG2);
+}
+.right
+{
+    width: 50%;
+    height: 100%;
+    border: 1px solid var(--colorG2);
+}
+.left > img 
+{
+    width: 250px;
+    border: 10px solid var(--colorY2);
+    border-radius: 400px;
+    margin: 5vw 10vw 2vh;
+}
+.left > a
+{
+    text-align: center;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 30px;
+    margin: 0 11vw;
+}
+.right > h1
+{
+    font-size: 45px;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+    letter-spacing: 2px;
+    margin: 3vh 7vw;
+}
+.right > p
+{
+    margin: 2vh 1vw;
+    font-size: 35px;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+    letter-spacing: 2px;
+    text-decoration: underline;
+}
+#xp > .progress-bar
+{
+    width: 50%;
+    font-size: 24px;
+    margin: 2.4vh;
+}
+#xp
+{
+    margin: 5vh 0;
+    display: flex;
+}
+#xp > p
+{
+    font-size: 42px;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+    letter-spacing: 2px;
+    margin: 0 2vh;
+}
+
+/*  -------- EMBLEM -------  */
+
+.Emblem-Box
+{
+    border-top: 1px solid;
+    width: 100%;
+    height: 85vh;
+    background-image: url(../imgs/Emblem_Background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.Emblem-content
+{
+    width: 85%;
+    height: 80%;
+    margin: 2vw auto;
+    background-color: #f8d084;
+    border: 10px double var(--colorR2);
+    display: flex;
+}
+.Emblem-content > .left
+{
+    border: 1px solid var(--colorR2);
+}
+.Emblem-content > .left > h1
+{
+    font-size: 45px;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 1.8vh 7vw ;
+}
+.Emblem-content > .right
+{
+    border: 1px solid var(--colorR2);
+}
+.Emblem-content > .right > h1
+{
+    font-size: 45px;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 1.8vh 7vw ;
+    width: 66.5%;
+}
+.Conquistas
+{
+    width: 99.5%;
+    height: 83.6%;
+    color: var(--colorY2);
+    border: 1px solid;
+    background-color: var(--colorY2);
+    overflow-y: scroll;
+}
+.Emblemas
+{
+    width: 99.5%;
+    height: 83.6%;
+    color: var(--colorY2);
+    border: 1px solid;
+    background-color: var(--colorY2);
+    overflow-y: scroll;   
+}
+ul
+{
+    margin: 0;
+    padding: 0;
+}
+li
+{
+    width: 97.5%;
+    list-style: none;
+    margin: 3vh 0;
+    padding: 1vh;
+    background-color: #DDAF5A;
+    box-shadow: 2px 2px 6px 0 black;
+    display: flex;
+    transition: all ease 0.5s;
+}
+li > img
+{
+    width: 90px;
+    border-radius: 100px;
+    border: 5px solid var(--colorBL2);
+    margin: 0 2vw;
+}
+li > p 
+{
+    color: white;
+    text-shadow: 3px 2px 2px black;
+    font-size: 24px;
+    margin: 5vh 0;
+}
+li:hover
+{
+    scale: 1.2;
+    width: 88.5%;
+}
+
+/*  --------------  INVENTORY -------------- */
+
+.Inventory-Box
+{
+    border-top: 4vh solid var(--colorB1);
+    width: 100%;
+    height: 110vh;
+    background: url(../imgs/lether_background.png);
+    background-size: 100%;
+}
+.Inventory-Content
+{
+    width: 95%;
+    border: 10px inset var(--colorY2);
+    height: 90vh;
+    background:#ddce8a;
+    margin: 7vh auto;
+    border-radius: 20px;
+    display: flex;
+}
+.Inventory-Content > div
+{
+    width: 45vw;
+    border: 1px solid;
+    height: 85vh;
+    margin: 2vh 2vw;
+    clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 100%, 100% 100%, 51% 91%, 0 100%, 0 100%, 0 34%, 0 0);
+}
+.Paper
+{
+    background-color: var(--colorBL2);
+}
+.Metal
+{
+    background-color: var(--colorY1);
+}
+.Glass
+{
+    background-color: var(--colorG1);
+}
+.Plastic
+{
+    background-color: var(--colorR1);
+}
+.Organic
+{
+    background-color: var(--colorB1);
+}
+.Inventory-Content > div > h1
+{
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-size: 45px;
+    text-align: center;
+}
+.Inventory-Content > div > h2
+{
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-size: 35px;
+    text-align: center;
+}
+.Inventory-Content > div > img
+{
+    width: 170px;
+    border-radius: 170px;
+    border: 7px solid gold;
+    margin: 2vh 1.5vw;
+}
+.Inventory-Content > div > button
+{
+    width: 170px;
+    height: 5vh;
+    border-radius: 2px;
+    border: 2px solid #ffb732;
+    background-color:#fce68f;
+    margin: 2vh 1.5vw;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px black;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all ease 0.5s;
+    box-shadow: 2px 2px 2px black;
+}
+.Inventory-Content > div > button:hover
+{
+    scale: 1.2;
+}
+
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+  }
+  
+
+  .modal-content {
+    background-color: var(--colorY1);
+    margin: 15% auto; 
+    padding: 20px;
+    border: 2px solid var(--colorY2);
+    width: 50%; 
+    height: 50vh;
+
+  }
+  .modal-content > #content {
+    display: flex;
+  }
+  .modal-content > #content > div > h1 {
+    color: white;
+    font-size: 44px;
+    text-shadow: 2px 2px 2px black;
+  }
+  .modal-content > #content > hr {
+    margin: 2vw 3vw;
+  }
+  .modal-content > #content > div > p {
+    color: white;
+    font-size: 24px;
+    text-shadow: 2px 2px 2px black;
+    width: 100%;
+    margin: 2vh 0;
+  }
+  .modal-content > #content > div > input {
+    font-size: 24px;
+    width: 20%;
+  }
+  .modal-content > #content > div > button {
+    font-size: 19px;
+    width: 100%;
+    height: 3em;
+    background-color: #8F3F24;
+    border: 3px solid var(--colorB2);
+    margin: 0;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    transition: all ease 0.5s;
+  }
+  .modal-content > #content > div > button:hover {
+    scale: 1.1;
+  }
+  
+  .close {
+    color: #ffffff;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }

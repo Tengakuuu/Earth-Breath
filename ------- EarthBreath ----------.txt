@@ -1,0 +1,40 @@
+------- EarthBreath ----------
+
+
+Earth Breath é um site/app, destinado ao publico jovem
+e aos que trabalham na coleta de lixo reciclável, tem
+seu objetivo de deixar a coleta de lixo reciclável mais
+atrativa para esse publico em questão, e ajuda tbm os
+coletores da região, ao passar a ideia de competição
+e divertida, como se fosse um "jogo" porém um "jogo" que
+interage com sua comunidade, e que contribui para o
+meio ambiente.
+
+Earth Breath, tem de inicio, o cadastro dos usuários,
+onde o usuário tem a escolha de sua "classe", sua classe
+define seu propósito, temos os "Coletores" e os "Trabalhadores",
+Os trabalhadores podem enviar "quests" ou aceitar troca dos
+coletores, pois os coletores tem de sua função de coletar o
+lixo reciclável, Coletores podem entrar em contato com os
+Trabalhadores e os trabalhadores podem entrar em contato
+com os coletores
+
+Neste site, todos vão ter sistema de pontos e rank de cada
+material, além de titulos, conquistas, emblemas, recompensas
+e uma notoriedade maior dependendo da frequencia que tu
+interage na comunidade. Além dos usuários puderem criar "Guildas",
+"Clans" e grupos para poderem se comunicar um com os outros.
+
+Porque escolhemos essa mecanica pra esse site?
+Por que acreditamos, que na geração atual em que vivemos
+os jovems eles precisam de estimulos, e sem ambições,
+percebemos isso ao analisar um jovem em um jogo online,
+em comparação nos estudos, é notavel que ele se sairá
+melhor no jogo do que em uma prova, já que eles recebem
+mais recompensas em jogos virtuais, do que com o esforço
+duro da educação.
+
+Nosso site, colabora com o meio ambiente em si, colabora
+com quem está nesta profissão, estimula todos os usuários,
+e é uma forma inovadora e divertida de se reciclar.
+

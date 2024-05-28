@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Earth Breath</title>
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/trade.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <article class="header-body">
+
+            <aside class="profile-menu">
+                <div><img src="imgs/profile-img.png" alt="" id="profile-img"></div><button>v</button>
+            </aside>
+
+            <aside class="header-button" onclick="window.location.href='main.html'">
+                <p>INICIO</p>
+            </aside>
+
+            <aside class="header-button" onclick="window.location.href='trade.html'">
+                <p>TROCAS</p>
+            </aside>
+
+            <aside class="header-button" onclick="window.location.href='Oops.html'">
+                <p>GUILDAS</p>
+            </aside>
+
+            <aside class="header-button" onclick="window.location.href='profile.html#inventory'">
+                <p>INVENTÁRIO</p>
+            </aside>
+        </article>
+        <article class="profile-box">
+            <aside class="profile-button" onclick="location.href='profile.html#profile'">Seu perfil</aside>
+            <aside class="profile-button" onclick="location.href='profile.html#emblem'">Emblemas</aside>
+            <aside class="profile-button" onclick="location.href='Oops.html'">Guilda</aside>
+            <aside class="profile-button"onclick="location.href='profile.html#emblem'">Conquistas</aside>
+            <p>Nivel 4 / Rank: Novato</p>
+            <aside class="progress-bar"></aside>
+        </article>
+    </header>
+    <main>
+        <article class="up-box1">
+            <aside class="left-content">
+                    <div class="content">
+                            <h1>
+                                BEM VINDO AO CENTRO DE TROCAS !
+                            </h1>
+                            <p>
+                                Bem vindo coletor ou trabalhador, aqui é o lugar em que vc pode entrar em contato com os outros membros e comercializar ou a boa e velha barganha entre si, podem trocar tanto materiais quanto pontos de experiencia, que tal começar uma oferta meu chapa?
+                            </p>
+                            <button class="trade" onclick="scrollToEnd()">TROCAR</button>
+                    </div>
+            </aside>
+        </article>
+        <article class="trade-center">
+            <aside class="trades">
+                <ul>
+                    <li> <img src="imgs/TRADE-PROFILE.png" alt=""> <p> USER_TEST132 | NIVEL 9 | OFERECE 43 XP POR 12 MATERIAIS DE PAPEL</p> <button> DETALHES </button></li> 
+                    <li> <img src="imgs/TRADE-PROFILE.png" alt=""> <p> USER_TEST132 | NIVEL 9 | OFERECE 43 XP POR 12 MATERIAIS DE PAPEL</p> <button> DETALHES </button></li> 
+                    <li> <img src="imgs/TRADE-PROFILE.png" alt=""> <p> USER_TEST132 | NIVEL 9 | OFERECE 43 XP POR 12 MATERIAIS DE PAPEL</p> <button> DETALHES </button></li> 
+                    <li> <img src="imgs/TRADE-PROFILE.png" alt=""> <p> USER_TEST132 | NIVEL 9 | OFERECE 43 XP POR 12 MATERIAIS DE PAPEL</p> <button> DETALHES </button></li> 
+                    <li> <img src="imgs/TRADE-PROFILE.png" alt=""> <p> USER_TEST132 | NIVEL 9 | OFERECE 43 XP POR 12 MATERIAIS DE PAPEL</p> <button> DETALHES </button></li> 
+                    <li> <img src="imgs/TRADE-PROFILE.png" alt=""> <p> USER_TEST132 | NIVEL 9 | OFERECE 43 XP POR 12 MATERIAIS DE PAPEL</p> <button> DETALHES </button></li> 
+                </ul>
+            </aside>    
+        </article>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="scripts/header.js"></script>
+    <script>
+        function scrollToEnd() {
+            var element = document.querySelector(".trades");
+            element.scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>

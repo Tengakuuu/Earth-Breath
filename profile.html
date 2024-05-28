@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Earth Breath</title>
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/profile.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="scripts/header.js"></script>
+</head>
+<body>
+    <header>
+
+        <article class="header-body">
+
+            <aside class="profile-menu">
+                <div><img src="imgs/profile-img.png" alt="" id="profile-img"></div><button>v</button>
+            </aside>
+
+            <aside class="header-button" onclick="window.location.href='main.html'">
+                <p>INICIO</p>
+            </aside>
+
+            <aside class="header-button" onclick="window.location.href='trade.html'">
+                <p>TROCAS</p>
+            </aside>
+
+            <aside class="header-button" onclick="window.location.href='Oops.html'">
+                <p>GUILDAS</p>
+            </aside>
+
+            <aside class="header-button" onclick="window.location.href='profile.html#inventory'">
+                <p>INVENTÁRIO</p>
+            </aside>
+
+
+
+        </article>
+        <article class="profile-box">
+            <aside class="profile-button" onclick="location.href='profile.html#profile'">Seu perfil</aside>
+            <aside class="profile-button" onclick="location.href='profile.html#emblem'">Emblemas</aside>
+            <aside class="profile-button" onclick="location.href='Oops.html'">Guilda</aside>
+            <aside class="profile-button"onclick="location.href='profile.html#emblem'">Conquistas</aside>
+            <p>Nivel 4 / Rank: Novato</p>
+            <aside class="progress-bar"></aside>
+        </article>
+    </header>
+    <main>
+        <article class="Profile-box">
+        <div id="profile"></div> <!--    isso é pro site se localizar     -->
+            <aside class="Profile-content">
+                <div class="left">
+                    <img src="imgs/profile-img.png" alt="" srcset="">
+                    <a>Mudar a imagem</a>
+                </div>
+                <div class="right">
+                    <h1>SEU PERFIL : </h1>
+                    <p> Nome : Miguel Bento</p>
+                    <p>Nivel : 4</p>
+                    <p>Rank : Novato</p>
+                    <p>Emblema Equipado : DEV</p>
+                    <p>Conquistas : 5 | 23</p>
+                    <div id="xp"><p >XP: </p><aside class="progress-bar"></aside></div>
+                    
+                </div>
+            </aside>
+        </article>
+        <article class="Emblem-Box">
+            <div id="emblem"></div> <!--    isso é pro site se localizar     -->
+            <aside class="Emblem-content">
+                <div class="left">
+                    <h1> Emblemas :</h1>
+                    <div class="Emblemas">
+                        <ul>
+                            <li><img src="imgs/EarthEmblem.jpg" alt=""> <p>EMBLEMA : DEV</p> </li>
+                            <li><img src="imgs/FireEmblem.jpg" alt=""> <p>EMBLEMA : COLETOR MESTRE</p> </li>
+                            <li><img src="imgs/emblem_1.jpg" alt=""> <p>EMBLEMA : TRABALHADOR MESTRE</p> </li>
+                            <li><img src="imgs/EarthEmblem.jpg" alt=""> <p>EMBLEMA : OWNER</p> </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="right">
+                    <h1> Conquistas :</h1>
+                    <div class="Conquistas">
+                        <ul>
+                            <li><img src="imgs/conquista-1.png" alt=""> <p>JORNADA LONGA</p> </li>
+                            <li><img src="imgs/conquista-2.png" alt=""> <p>EU... DEVELOPER?</p> </li>
+                            <li><img src="imgs/conquista-4.jpg" alt=""> <p>TRABALHADOR LENDÁRIO</p> </li>
+                            <li><img src="imgs/conquista-5.png" alt=""> <p>REI DA LÁBIA</p> </li>
+                            <li><img src="imgs/conquista-6.jpg" alt=""> <p> 5º ELEMENTO </p> </li>
+                        </ul>
+                    </div>
+                </div>
+            </aside> 
+        </article>
+        <article class="Inventory-Box">
+            <div id="inventory"></div> <!--    isso é pro site se localizar     -->
+            <aside class="Inventory-Content">
+                <div class="Paper">
+                    <img src="imgs/paper.png" alt="" srcset="">
+                    <h1>PAPEL</h1>
+                    <h2>12</h2>
+                    <button onclick="openModal()">
+                        Registrar
+                    </button>
+                </div>
+                <div class="Metal">
+                    <img src="imgs/metal.png" alt="" srcset="">
+                    <h1>METAL</h1>
+                    <h2>31</h2>
+                    <button onclick="openModal()">
+                        Registrar
+                    </button>
+                </div>
+                <div class="Glass">
+                    <img src="imgs/glass.png" alt="" srcset="">
+                    <h1>VIDRO</h1>
+                    <h2>08</h2>
+                    <button onclick="openModal()">
+                        Registrar
+                    </button>
+                </div>
+                <div class="Plastic">
+                    <img src="imgs/plastic.png" alt="">
+                    <h1>PLASTICO</h1>
+                    <h2>02</h2>
+                    <button onclick="openModal()">
+                        Registrar
+                    </button>
+                </div>
+                <div class="Organic">
+                    <img src="imgs/Organic.png" alt="" srcset="">
+                    <h1>ORGANICO</h1>
+                    <h2>28</h2>
+                    <button onclick="openModal()">
+                        Registrar
+                    </button>
+                </div>
+            </aside>
+        </article>  
+        <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <div id="content">
+                <div>
+                    <h1>
+                        MATERIAL DE ???:
+                    </h1>
+                    <p>
+                        VOCÊ TEM EXATAMENTE... BOM É APENAS UM MODAL EXPERIMENTAL, ESTA FUNÇÃO NÃO ESTÁ FINALIZADA, POR FAVOR AGUARDE O PROJETO FINAL
+                    </p>
+                </div>
+                <hr>
+                <div>
+                    <h1>DESEJA ADICIONAR MAIS?</h1>
+                    <input type="number">
+                    <p>selecionar foto:</p>
+                    <button>Mandar Foto de Validação</button>
+                </div>
+            </div>
+            </div>
+          
+          </div>
+    </main>
+    <script src="scripts/modal.js"></script>
+</body>
+</html>

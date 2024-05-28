@@ -1,0 +1,101 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Earth Breath</title>
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+
+        <article class="header-body">
+
+            <aside class="profile-menu">
+                <div><img src="imgs/profile-img.png" alt="" id="profile-img"></div><button>v</button>
+            </aside>
+
+            <aside class="header-button" onclick="window.location.href='main.html'">
+                <p>INICIO</p>
+            </aside>
+
+            <aside class="header-button" onclick="window.location.href='trade.html'">
+                <p>TROCAS</p>
+            </aside>
+
+            <aside class="header-button" onclick="window.location.href='Oops.html'">
+                <p>GUILDAS</p>
+            </aside>
+
+            <aside class="header-button" onclick="location.href='profile.html#inventory'">
+                <p>INVENTÁRIO</p>
+            </aside>
+
+
+
+        </article>
+        <article class="profile-box">
+            <aside class="profile-button" onclick="location.href='profile.html#profile'">Seu perfil</aside>
+            <aside class="profile-button" onclick="location.href='profile.html#emblem'">Emblemas</aside>
+            <aside class="profile-button" onclick="location.href='Oops.html'">Guilda</aside>
+            <aside class="profile-button"onclick="location.href='profile.html#emblem'">Conquistas</aside>
+            <p>Nivel 4 / Rank: Novato</p>
+            <aside class="progress-bar"></aside>
+        </article>
+
+    </header>
+    <main>
+
+        <article class="up-box1">
+            <aside class="left-box">
+                <div class="left-content">
+                    <div class="content">
+                            <h1>
+                                COMEÇA A SAGA DOS DRUÍDAS!!
+                            </h1>
+                            <p>
+                                Prepare-se Coletores e trabalhadores, no dia 31 de maio começa a era de uma jornada verde, em salvar a mãe terra aos poucos, o seu esforço de boa vontade pela causa, faz nosso planeta sorrir, a parti desse dia, Colete, Troque, Comunique-se com outros usuários, e façam a diferença!!!
+                            </p>
+                            <p>
+                                Para Cadastrar é simples, clique em Cadastro, aqui em baixo, ou se tiver duvidas sobre nosso projeto, clique em Saiba Mais!
+                            </p>
+                            <button class="join" onclick="location.href='index.html'">ENTRAR</button><button class="about" onclick="scrollToEnd()">SAIBA MAIS</button>
+                    </div>
+                </div>
+            </aside>
+        </article>
+        <article class="about-box">
+            <aside class="about-content">
+                <div class="about-left">
+                    <div class="about-left-content">
+                        <h1>SOBRE MIM</h1>
+                            <p>Olá, me chamo Miguel Bento, sou um estudante de ciencias da computação, estou a 2 anos na programação, este projeto é um apenas um protótipo, e penso futuramente em lançar ele como um projeto sério</p>
+                        <h1>SOBRE O SITE</h1>
+                            <p>Você já reparou que a juventude de hoje em dia, está sem ambições, ou precisam de um constante
+                                estimulo poder executar funções simples, como estudar, dedicar a um novo hobbie, disciplina, pois bem, este site
+                                ele é praticamente um Game que interage com o mundo real, sobre coleta de lixo reciclável.
+                                o objetivo desse site é o jogador, coletar lixo, para trocar com outras pessoas que trabalham nesse ramo, ou em troca de pontos de experiência, ou com outros materiais.
+                                os pontos de experiencia vão aumentar o nivel e o rank do jogador, sem contar que ele poderar completar missões, conquistas e tarefas para ganhar titulos, emblemas
+                                pontos de experiencia e uma notoriedade no seu perfil.
+                                Os jogadores podem criar guildas, grupos ou clan, aonde todos podem se comunicar, e trocar estratégia entre si.
+                                Por enquanto o site é isso, futuramente haverá mais atualizações, mas mesmo jeito, divirtão-se!! :)
+                            </p>
+                    </div>
+                </div>
+                <div class="about-right"></div>
+            </aside>
+        </article>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="scripts/header.js"></script>
+    <script>
+        function scrollToEnd() {
+            var element = document.querySelector(".about-box");
+            element.scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+</body>
